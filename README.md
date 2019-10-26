@@ -18,7 +18,7 @@ For each range it will create a linear equation that will simulate the behaviour
 
 
 ## Installation
-If you want to install ** Estimator**, the source [files are here]([https://github.com/rodrigocruz13/b_st](https://github.com/rodrigocruz13/b_st)). You can download them, compile then and install it with no further permission.
+If you want to install ** Estimator**, the source [files are here]([https://github.com/rodrigocruz13/b_st] (https://github.com/rodrigocruz13/b_st)). You can download them, compile then and install it with no further permission.
 
 * Download or copy this repository
 * Under a Pyhton 3.7 enviroment run the command ./main.py
@@ -91,6 +91,8 @@ Editors
 * [vi unix editor](https://sourceforge.net/projects/ex-vi/)
 * [Emacs](https://www.gnu.org/software/emacs/)
 
+School
+* [Holberton School Bogotá](https://www.holbertonschool.com/co)
 
 ## About
 
@@ -129,5 +131,3 @@ without your time, help and dedication to try to explain those issues that we do
 this would have been possible.
 
 ![logo](https://i.imgur.com/9ONYhd0.png)
-
-
