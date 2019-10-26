@@ -35,7 +35,7 @@ If you want to install ** Estimator**, the source [files are here]([https://gith
 
 ### Example Usage
 ```
-- $           In the prompt type: ./main.py and hit enter`
+- $ ./main.py `
 ```
 
 
