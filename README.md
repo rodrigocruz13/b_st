@@ -12,10 +12,10 @@
 * R2: 500 ≥ u > 5000
 * R3: 5000 ≥ u ≥ 50000
 
-For each range it will create a linear equation that will simulate the behaviour of the cost function c(u)
+For each range it will create a linear equation that will simulate the behaviour of the cost function c(u) and that will allow to estimate the desired value.
 
-* It will ask the user to type the id of the user and the number of units to quote.
-* It also show the 15 cheapests cuotation for that number of units u. 
+![BS - Estimator](https://i.imgur.com/twoaDxB.jpg)
+
 
 ## Installation
 If you want to install ** Estimator**, the source [files are here]([https://github.com/rodrigocruz13/b_st](https://github.com/rodrigocruz13/b_st)). You can download them, compile then and install it with no further permission.
