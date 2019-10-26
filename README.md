@@ -18,7 +18,7 @@ For each range it will create a linear equation that will simulate the behaviour
 * It also show the 15 cheapests cuotation for that number of units u. 
 
 ## Installation
-If you want to install **hsh shell**, the source [files are here]([https://github.com/ryanhudson/draft_shell/tree/master](https://github.com/ryanhudson/draft_shell/tree/master)). You can download them, compile then and install it with no further permission.
+If you want to install ** Estimator**, the source [files are here]([https://github.com/rodrigocruz13/b_st](https://github.com/rodrigocruz13/b_st)). You can download them, compile then and install it with no further permission.
 
 * Download or copy this repository
 * Under a Pyhton 3.7 enviroment run the command ./main.py
@@ -109,10 +109,14 @@ Kris Bredemeier - Holberton School (SF)
 
 ## Authors
 
- Photo  | Name | Email | Github | linkedin 
- -----  | ---- | ----- | ---- | ----- 
-![Rodrigo](https://i.imgur.com/C2LoErX.jpg)| Rodrigo Cruz | rodrigocruzayala@gmail.com | https://github.com/rodrigocruz13 | https://www.linkedin.com/in/rodrigo-cruz-devops/
+ Photo  | Name | 
+ -----  | ---- | 
+![Rodrigo](https://i.imgur.com/C2LoErX.jpg)| Rodrigo Cruz | 
 
+
+Email | Github | linkedin |
+-----  | ---- | -----  |
+rodrigocruzayala@gmail.com | https://github.com/rodrigocruz13 | https://www.linkedin.com/in/rodrigo-cruz-devops/
 
 Yep ... just me 
 
