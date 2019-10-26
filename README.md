@@ -109,14 +109,14 @@ Kris Bredemeier - Holberton School (SF)
 
 ## Authors
 
- Photo  | Name | 
- -----  | ---- | 
-![Rodrigo](https://i.imgur.com/C2LoErX.jpg)| Rodrigo Cruz | 
+ Photo  | Name | Email |
+ -----  | ---- | ----- |
+![Rodrigo](https://i.imgur.com/C2LoErX.jpg)| Rodrigo Cruz | rodrigocruzayala@gmail.com
 
 
-Email | Github | linkedin |
------  | ---- | -----  |
-rodrigocruzayala@gmail.com | https://github.com/rodrigocruz13 | https://www.linkedin.com/in/rodrigo-cruz-devops/
+ Github | linkedin |
+ ---- | -----  |
+ https://github.com/rodrigocruz13 | https://www.linkedin.com/in/rodrigo-cruz-devops/
 
 Yep ... just me 
 
