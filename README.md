@@ -75,8 +75,7 @@ No need to compile
 
 ## License
 
-This program is licensed under the terms of the GPL Open Source license and is available for free.
-This document is only for the usage of Bunny Studios
+This files are only for the usage of Bunny Studios
 
 
 ## Links & Tech
