@@ -32,7 +32,7 @@ def print_menu(size):
     user_id = 1
     while (user <= 0 or user > size):
         bar = '-' * 60
-        print('\n\t',bar)        
+        print('\n\t', bar)
         print('\t  Type q to quit')
         user_id = input('\t  Type the id of the user:\t')
         if (user_id == 'q' or user_id == 'Q'):
@@ -44,13 +44,17 @@ def print_menu(size):
         except BaseException:
             pass
 
+        no_color = '\x1b[0m  '
+        yellow_color = '\x1b[1;33;40m'
+
         if (user <= 0 or user >= size):
-            print('\t  That user_id doesnt exist')
+            msg = yellow_color + '\tThat id doesnt exist' + no_color
+            print('\t  {}'.format(msg))
 
     un = -5
     units = 5
-    while (un < 5 or un > 50000):
-        units = input("\t  # of units to get {}'s" ' cost:\t'.format(user))
+    while (un < 1 or un > 50000):
+        units = input("\t  # of units to get id {}'s" ' cost:\t'.format(user))
         if (units == 'q' or units == 'Q'):
             clear_screen()
             exit(1)
@@ -60,8 +64,9 @@ def print_menu(size):
         except BaseException:
             pass
 
-        if (un < 5 or un >= 50000):
-            print('\tThat value cant not be estimated')
+        if (un < 1 or un >= 50000):
+            msg = yellow_color + '\tThat value can not be estimated' + no_color
+            print('\t  {}'.format(msg))
 
     return ([user, un])
 
@@ -158,7 +163,7 @@ def estimate_value(op, equations):
 
     for lists in equations:
         if(user_id == lists[0]):
-            if(value >= 5 and value < 50):
+            if(value >= 0 and value < 50):
                 m = lists[1]
                 b = lists[2]
                 break
@@ -200,7 +205,7 @@ def print_results(op, estimated):
 
 
 def find_smaller(op, equations):
-    # find the 10 first smaller bidders
+    # find the 15 first smaller bidders
     """
     Purpose:   find the 15 first smaller bidders for producing u units
     Arguments:  - op (lst): list with two arguments.
@@ -226,25 +231,27 @@ def find_smaller(op, equations):
         new_op = [user, op[1]]
         estimated = estimate_value(new_op, equations)
 
-        if (estimated != 0):
+        if (estimated >= 0):
             temp = []
             temp = [estimated, user]
             quotations.append(temp)
         user += 1
 
     quotations.sort()
-    print('\t\t\t15 cheapest quotations of {}u:'.format(op[1]))
+    print('\t\t15 cheapest quotations of {}u:'.format(op[1]))
 
     no_color = '\x1b[0m  '
     green_color = ' \x1b[1;32;40m'
+    yellow_color = ' \033[0m 1;33;40m'
 
     i = 0
-    while(i < 15):
+    cont = 0
+    while(cont < 15):
         line = quotations[i]
         value = float(line[0])
         if(value > 0):
             user = int(line[1])
-            print(
-                '\t\t\t{:2d}\tUser:\t{:d}\t{}US${:6.3f}{}'.format(
-                    i + 1, user, green_color, value, no_color))
-            i += 1
+            print('\t\t{:2d}\tUser:\t{:d}\t{}US${:6.3f}{}'.format(
+                cont + 1, user, green_color, value, no_color))
+            cont += 1
+        i += 1

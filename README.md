@@ -21,7 +21,7 @@ For each range it will create a linear equation that will simulate the behaviour
 If you want to install ** Estimator**, the source [files are here]([https://github.com/rodrigocruz13/b_st] (https://github.com/rodrigocruz13/b_st)). You can download them, compile then and install it with no further permission.
 
 * Download or copy this repository
-* Under a Pyhton 3.7 enviroment run the command ./main.py
+* Under a Pyhton 3.7 run the command ./main.py
 * It will start the application 
 
 
@@ -30,7 +30,7 @@ If you want to install ** Estimator**, the source [files are here]([https://gith
 - `In the local folder run the main file for starting: ./main.py`
 - `Once you are asked type any valid ID and hit enter`
 - `Type the number of units you want to quote`
-- `The results then are displayed`
+- `The results are displayed`
 - `If you want to quit type Q or q`
 
 ### Example Usage
@@ -51,10 +51,10 @@ If you want to install ** Estimator**, the source [files are here]([https://gith
 
 
 ### Current features
-* Load the out.txt file
+* Loads the out.txt file
 * Calculates the slope (m) and y intersection (b) for each user and range 
 * Generates a quote of U units for user ID
-* Shows 15 cheapests cuotation for that number of units u. 
+* Shows 15 cheapests quotation for that number of units u. 
 
 
 ## Files
@@ -67,7 +67,7 @@ This is the list of the files required to compile and create the shell.
 |2|Doc| out.txt |Txt file with the original information|
 |3|Doc| Estimate.xlsx |Excel file with quotes for windows enviroments|
 |4|py file|main.py|Main file. Generates the loop for reading & showing info|
-|5|py file|calculate.py|It constains all the methods and functions|
+|5|py file|calculate.py|It contains all the methods and functions|
 
 
 ## Compiling process
@@ -76,7 +76,7 @@ No need to compile
 ## License
 
 This program is licensed under the terms of the GPL Open Source license and is available for free.
-This document is only for usage of Bunny Studios(1.0)
+This document is only for the usage of Bunny Studios
 
 
 ## Links & Tech
@@ -97,10 +97,10 @@ School
 ## About
 
 
-- A Full Stack Engineer is an engineer who is able to understand and work on any level of a software
+- A Full Stack Engineer is an engineer who is able to understand and work onany level of a software
 application: starting from the hardware, system and network, to the security and scalability. Our students
 will be familiar with software architecture, data modeling, coding, testing, shipping, user experience,
-design, project management, marketing,  While one cant be an expert in all of the layers, students
+design, project management, marketing,  While one can't be an expert in all of the layers, students
 will have the foundation required to be able to navigate any of those.
 It also means that our students will be able to interact with low and high level technologies: for code,
 it will mean from assembly to the latest programming framework. For system infrastructure, it will mean
